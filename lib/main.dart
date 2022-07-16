@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:contact/widgets/bottom_bar.dart';
-import 'package:contact/widgets/nav_bar.dart';
+import 'package:contact/screens/test_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,16 +11,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: DefaultTabController(
-        length: 3, initialIndex: 1,
-        child: Scaffold(
-          appBar: PreferredSize(
-            preferredSize: Size.fromHeight(70),
-            child: Navbar(),
-          ),
-          bottomNavigationBar: Bottom(),
-        ),
-      ),
+      home: testScreen(),
     );
   }
 }
