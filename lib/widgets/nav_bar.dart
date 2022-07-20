@@ -14,20 +14,21 @@ class Navbar extends StatelessWidget {
       ),
       leading: Image.asset("assets/logo/logo.png"),
       title: Text('발자취'),
-      actions: const [
+      actions: [
         IconButton(
           padding: EdgeInsets.only(right: 20),
           icon: Icon(Icons.search, color: Colors.white),
-          onPressed: null,
+          onPressed: () {},
         ),
         IconButton(
           padding: EdgeInsets.only(right: 20),
-          icon: Icon(Icons.pin_drop, color: Colors.white),onPressed: null,
+          icon: Icon(Icons.pin_drop, color: Colors.white),
+          onPressed: () {},
         ),
         IconButton(
           padding: EdgeInsets.only(right: 20),
           icon: Icon(Icons.shopping_cart_outlined, color: Colors.white),
-          onPressed: null,
+          onPressed: () {},
         ),
       ],
     );
