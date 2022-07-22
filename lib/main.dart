@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:contact/screens/test_screen.dart';
+import 'package:contact/screens/bar_test_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: testScreen(),
+      home: barTestScreen(),
     );
   }
 }
